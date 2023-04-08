@@ -5,7 +5,7 @@ const router = Router()
 
 router.get('/articles', getArticles);
 
-router.get('/articles/:id', getArticle);
+router.get('/articles/:url', getArticle);
 
 router.get('/articlesInfo', getArticleInfo);
 
